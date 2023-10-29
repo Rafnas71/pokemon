@@ -1,11 +1,11 @@
-import CardInfo from "../../components/Cardinfo";
-import Cards from "../../components/Cards";
+import CardInfo from "../components/Cardinfo";
+import Cards from "../components/Cards";
 import "../index.css"
 
 export default function Homepage() {
   return (
-    <div className="flex">
-      <div className=" flex-auto max-w-sm w-2/3 overflow-none">
+    <div >
+      <div className="flex flex-wrap gap-1 m-2">
         <Cards />
         <Cards />
         <Cards />
@@ -19,7 +19,7 @@ export default function Homepage() {
         <Cards />
         <Cards />
       </div>
-      <div className="">
+      <div className="flex">
         <CardInfo/>
       </div>
     </div>
